@@ -9,14 +9,29 @@ package modelo;
  * @author alumno
  */
 public class Nacionalidad {
+    
+    // atributos
     private int idNacionalidad;
     private String descripcion;
 
+    // constructor vacio
+    public Nacionalidad(){
+        
+    }
+    // constructor agregar
+    public Nacionalidad(String descripcion){
+        this.descripcion = descripcion;
+    }
+    
+    
+    // constructor actualizar
     public Nacionalidad(int idNacionalidad, String descripcion) {
         this.idNacionalidad = idNacionalidad;
         this.descripcion = descripcion;
     }
 
+    
+    // getters & setters
     public int getIdNacionalidad() {
         return idNacionalidad;
     }

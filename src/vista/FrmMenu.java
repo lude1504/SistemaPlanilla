@@ -124,6 +124,11 @@ public class FrmMenu extends javax.swing.JFrame {
         jMenu2.add(jMenuItem7);
 
         jMenuItem6.setText("Nivel Educativo");
+        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem6ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem6);
 
         jMenuItem8.setText("Cargo u Ocupacion");
@@ -226,7 +231,9 @@ public class FrmMenu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
-        // TODO add your handling code here:
+        InterTipoTrabajador gestionTipoTrabajador = new InterTipoTrabajador();
+        jDesktopPane1.add(gestionTipoTrabajador);
+        gestionTipoTrabajador.setVisible(true);
     }//GEN-LAST:event_jMenuItem7ActionPerformed
 
     private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
@@ -261,7 +268,15 @@ public class FrmMenu extends javax.swing.JFrame {
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
         InterZona gestionZona = new InterZona();
+        jDesktopPane1.add(gestionZona);
+        gestionZona.setVisible(true);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
+
+    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+        InterSituacionEducativa gestionSitEduc = new InterSituacionEducativa();
+        jDesktopPane1.add(gestionSitEduc);
+        gestionSitEduc.setVisible(true);
+    }//GEN-LAST:event_jMenuItem6ActionPerformed
 
     /**
      * @param args the command line arguments
