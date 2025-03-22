@@ -20,9 +20,10 @@ public class CUsuario {
     //metodo para Inciar Sesion
     public boolean LoginUser(Usuario objeto) {
 
+        Conexion objconexion = new Conexion();
         boolean respuesta = false;
 
-        Connection cn = Conexion.conectar();
+        Connection cn = objconexion.conectar();
         String sql = "SELECT usuario, contrasenia FROM Usuario WHERE usuario = '"+ objeto.getUsuario() +"' AND contrasenia = '"+ objeto.getContrasenia()+"';";
         Statement stm;
         try {

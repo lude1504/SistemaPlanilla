@@ -10,7 +10,7 @@ import java.sql.DriverManager;
  */
 public class Conexion {
      //conexion local
-    public static Connection conectar() {
+    public Connection conectar() {
 
         Connection cn = null;
         try {
