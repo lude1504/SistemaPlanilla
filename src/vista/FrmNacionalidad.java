@@ -68,6 +68,7 @@ public class FrmNacionalidad extends javax.swing.JFrame {
         ));
         tbNacionalidad.setColumnSelectionAllowed(true);
         jScrollPane1.setViewportView(tbNacionalidad);
+        tbNacionalidad.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_INTERVAL_SELECTION);
 
         btnAgregar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnAgregar.setText("Agregar");
