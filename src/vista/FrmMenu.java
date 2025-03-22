@@ -54,6 +54,12 @@ public class FrmMenu extends javax.swing.JFrame {
         jMenuItem19 = new javax.swing.JMenuItem();
         jMenuItem20 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
+        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenuItem22 = new javax.swing.JMenuItem();
+        jMenuItem23 = new javax.swing.JMenuItem();
+        jMenuItem24 = new javax.swing.JMenuItem();
+        jMenuItem25 = new javax.swing.JMenuItem();
+        jMenuItem26 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenuItem21 = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
@@ -183,6 +189,25 @@ public class FrmMenu extends javax.swing.JFrame {
 
         jMenu3.setText("Tablas");
         jMenu3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+
+        jMenuItem2.setText("Estado Civil");
+        jMenu3.add(jMenuItem2);
+
+        jMenuItem22.setText("Tipo de Documento");
+        jMenu3.add(jMenuItem22);
+
+        jMenuItem23.setText("Ubigeo");
+        jMenu3.add(jMenuItem23);
+
+        jMenuItem24.setText("Departamento Region");
+        jMenu3.add(jMenuItem24);
+
+        jMenuItem25.setText("Provincia");
+        jMenu3.add(jMenuItem25);
+
+        jMenuItem26.setText("Ubigeo RENIEC");
+        jMenu3.add(jMenuItem26);
+
         jMenuBar1.add(jMenu3);
 
         jMenu4.setText("Trabajadores");
@@ -338,8 +363,14 @@ public class FrmMenu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem17;
     private javax.swing.JMenuItem jMenuItem18;
     private javax.swing.JMenuItem jMenuItem19;
+    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem20;
     private javax.swing.JMenuItem jMenuItem21;
+    private javax.swing.JMenuItem jMenuItem22;
+    private javax.swing.JMenuItem jMenuItem23;
+    private javax.swing.JMenuItem jMenuItem24;
+    private javax.swing.JMenuItem jMenuItem25;
+    private javax.swing.JMenuItem jMenuItem26;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
